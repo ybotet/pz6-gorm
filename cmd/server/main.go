@@ -19,6 +19,6 @@ func main() {
 
 	r := httpapi.BuildRouter(d)
 
-	log.Println("listening on :8080")
-	log.Fatal(http.ListenAndServe(":8080", r))
+	log.Println("listening on :8087")
+	log.Fatal(http.ListenAndServe(":8087", r))
 }
